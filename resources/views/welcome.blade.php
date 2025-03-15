@@ -157,8 +157,8 @@
                     <li class="nav-item"><a class="nav-link" href="#">Subsidiaries</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
                 </ul>
-                <a href="#" class="btn btn-account ms-3">Create an account</a>
-                <a href="#" class="btn btn-login ms-2">Log in</a>
+                <a href="{{ route('user.register') }}" class="btn btn-account ms-3">Create an account</a>
+                <a href="{{ route('user.login') }}" class="btn btn-login ms-2">Log in</a>
             </div>
         </div>
     </nav>
